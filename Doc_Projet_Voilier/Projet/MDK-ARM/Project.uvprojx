@@ -390,6 +390,53 @@
         </Group>
         <Group>
           <GroupName>User Services</GroupName>
+          <Files>
+            <File>
+              <FileName>Service_RF.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_RF.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_MCC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_MCC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Bat.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Bat.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_ACC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_ACC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Gir.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Gir.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_serv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_serv.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Pupitre.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Pupitre.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_RF.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_RF.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_MCC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_MCC.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Drivers/STM32f1xx_LL_Driver</GroupName>
@@ -835,6 +882,53 @@
         </Group>
         <Group>
           <GroupName>User Services</GroupName>
+          <Files>
+            <File>
+              <FileName>Service_RF.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_RF.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_MCC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_MCC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Bat.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Bat.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_ACC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_ACC.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Gir.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Gir.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_serv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_serv.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Pupitre.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Pupitre.c</FilePath>
+            </File>
+            <File>
+              <FileName>Service_RF.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_RF.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_MCC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_MCC.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Drivers/STM32f1xx_LL_Driver</GroupName>
