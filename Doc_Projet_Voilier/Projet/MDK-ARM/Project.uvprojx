@@ -137,7 +137,7 @@
             <DriverSelection>4107</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
+          <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3></Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -417,11 +417,6 @@
               <FilePath>.\Service_Gir.c</FilePath>
             </File>
             <File>
-              <FileName>Service_serv.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Service_serv.c</FilePath>
-            </File>
-            <File>
               <FileName>Service_Pupitre.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Service_Pupitre.c</FilePath>
@@ -435,6 +430,36 @@
               <FileName>Service_MCC.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Service_MCC.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Bat.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Bat.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_ACC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_ACC.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Gir.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Gir.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Serv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Serv.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Pupitre.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Pupitre.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Serv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Serv.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -909,11 +934,6 @@
               <FilePath>.\Service_Gir.c</FilePath>
             </File>
             <File>
-              <FileName>Service_serv.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Service_serv.c</FilePath>
-            </File>
-            <File>
               <FileName>Service_Pupitre.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Service_Pupitre.c</FilePath>
@@ -927,6 +947,36 @@
               <FileName>Service_MCC.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Service_MCC.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Bat.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Bat.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_ACC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_ACC.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Gir.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Gir.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Serv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Serv.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Pupitre.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Service_Pupitre.h</FilePath>
+            </File>
+            <File>
+              <FileName>Service_Serv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Service_Serv.c</FilePath>
             </File>
           </Files>
         </Group>
