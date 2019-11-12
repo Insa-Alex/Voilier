@@ -19,7 +19,7 @@
 #include "stm32f1xx_ll_rcc.h" // utile dans la fonction SystemClock_Config
 #include "stm32f1xx_ll_utils.h"   // utile dans la fonction SystemClock_Config
 #include "stm32f1xx_ll_system.h" // utile dans la fonction SystemClock_Config
-
+#include "Service_MCC.h"
 
 
 void  SystemClock_Config(void);
@@ -37,9 +37,14 @@ int main(void)
 {
   SystemClock_Config();
 	
+	GPIO_MCC_Conf();
+	TIM_MCC_Conf();
+	
+	
   /* Infinite loop */
   while (1)
   {
+
   }
 	
 }
