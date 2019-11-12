@@ -1,0 +1,32 @@
+#include "stm32f1xx_ll_tim.h"
+#include "stm32f1xx_ll_gpio.h"
+
+void Gir_conf(void){
+	
+	// GPIOA
+	LL_GPIO_SetPinMode(GPIOA,LL_GPIO_PIN_5,LL_GPIO_MODE_INPUT);
+	LL_GPIO_SetPinPull(GPIOA,LL_GPIO_PIN_5,LL_GPIO_PULL_UP);
+	
+	LL_GPIO_SetPinMode(GPIOA,LL_GPIO_PIN_6,LL_GPIO_MODE_INPUT);
+	LL_GPIO_SetPinPull(GPIOA,LL_GPIO_PIN_6,LL_GPIO_PULL_UP);
+	
+	LL_GPIO_SetPinMode(GPIOA,LL_GPIO_PIN_7,LL_GPIO_MODE_INPUT);
+	LL_GPIO_SetPinPull(GPIOA,LL_GPIO_PIN_7,LL_GPIO_PULL_UP);
+	
+	// TIM3
+	RCC -> APB1ENR |= RCC_APB1ENR_TIM3EN;
+	
+	LL_TIM_SetPrescaler(TIM3,0);
+	LL_TIM_SetAutoReload(TIM3,1440);
+	LL_TIM_IC_SetActiveInput (TIM3,LL_TIM_CHANNEL_CH1,LL_TIM_ACTIVEINPUT_DIRECTTI);
+	LL_TIM_IC_SetActiveInput (TIM3,LL_TIM_CHANNEL_CH2,LL_TIM_ACTIVEINPUT_DIRECTTI);
+	LL_TIM_SetEncoderMode(TIM3,LL_TIM_ENCODERMODE_X4_TI12);
+	
+}
+
+short int get_pos(void){
+	
+	short int pos = LL_TIM_GetCounter (TIM3);
+	return pos;
+	
+}

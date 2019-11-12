@@ -1,0 +1,1 @@
+void Gir_conf (void);
